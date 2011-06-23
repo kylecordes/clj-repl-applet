@@ -5,8 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"
             :distribution :repo
             :comments "same as Clojure"}
-  :aot [com.oasisdigital.clj-repl-applet.applet]
-  :main com.oasisdigital.clj-repl-applet.applet
+  :aot [com.oasisdigital.clj-repl-applet.core]
+  :main com.oasisdigital.clj-repl-applet.core
   :warn-on-reflections true
   :uberjar-name "clj-repl-applet.jar"
   :dependencies [[org.clojure/clojure "1.2.1"]])
